@@ -8,9 +8,24 @@ public class Add {
 		this.a = a;
 		this.b = b;
 	}
+	
 	public int calculate() {
 		int result = a + b;
 		return result;
 	}
+	
+	public int getA() {
+		return a;
+	}
+	public void setA(int a) {
+		this.a = a;
+	}
+	public int getB() {
+		return b;
+	}
+	public void setB(int b) {
+		this.b = b;
+	}
+	
 	
 }
